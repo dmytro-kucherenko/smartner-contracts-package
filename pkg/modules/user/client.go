@@ -3,7 +3,7 @@ package user
 import (
 	"context"
 
-	"github.com/Dmytro-Kucherenko/smartner-contracts-package/gen/go/user"
+	"github.com/dmytro-kucherenko/smartner-contracts-package/gen/go/user"
 	adapter "github.com/dmytro-kucherenko/smartner-utils-package/pkg/server/adapters/grpc"
 	"google.golang.org/grpc"
 )

@@ -1,4 +1,4 @@
-module github.com/Dmytro-Kucherenko/smartner-contracts-package
+module github.com/dmytro-kucherenko/smartner-contracts-package
 
 go 1.24.1
 
