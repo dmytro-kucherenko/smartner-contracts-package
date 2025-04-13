@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package user;
+
+import "buf/validate/validate.proto";
+
+service User { rpc Get(GetRequest) returns (GetResponse); }
+
+message GetRequest {
+  string id = 1 [ (buf.validate.field).string.uuid = true ];
+}
+
+message GetResponse {
+  string id = 1;
+  string message = 2;
+}
