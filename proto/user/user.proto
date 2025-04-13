@@ -4,7 +4,7 @@ package user;
 
 import "buf/validate/validate.proto";
 
-service Main { rpc Get(GetRequest) returns (GetResponse); }
+service User { rpc Get(GetRequest) returns (GetResponse); }
 
 message GetRequest {
   string id = 1 [ (buf.validate.field).string.uuid = true ];

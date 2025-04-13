@@ -129,7 +129,7 @@ const file_user_user_proto_rawDesc = "" +
 	"\vGetResponse\x12\x0e\n" +
 	"\x02id\x18\x01 \x01(\tR\x02id\x12\x18\n" +
 	"\amessage\x18\x02 \x01(\tR\amessage22\n" +
-	"\x04Main\x12*\n" +
+	"\x04User\x12*\n" +
 	"\x03Get\x12\x10.user.GetRequest\x1a\x11.user.GetResponseBw\n" +
 	"\bcom.userB\tUserProtoP\x01Z0github.com/yourusername/yourproject/service/user\xa2\x02\x03UXX\xaa\x02\x04User\xca\x02\x04User\xe2\x02\x10User\\GPBMetadata\xea\x02\x04Userb\x06proto3"
 
@@ -151,8 +151,8 @@ var file_user_user_proto_goTypes = []any{
 	(*GetResponse)(nil), // 1: user.GetResponse
 }
 var file_user_user_proto_depIdxs = []int32{
-	0, // 0: user.Main.Get:input_type -> user.GetRequest
-	1, // 1: user.Main.Get:output_type -> user.GetResponse
+	0, // 0: user.User.Get:input_type -> user.GetRequest
+	1, // 1: user.User.Get:output_type -> user.GetResponse
 	1, // [1:2] is the sub-list for method output_type
 	0, // [0:1] is the sub-list for method input_type
 	0, // [0:0] is the sub-list for extension type_name
